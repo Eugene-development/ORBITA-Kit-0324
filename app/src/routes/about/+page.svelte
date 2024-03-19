@@ -1,6 +1,5 @@
 <script>
 	/** @type {import('./$types').PageData} */
-	import { Test } from '$lib/UI';
 </script>
 
 <svelte:head>
@@ -11,5 +10,4 @@
 	/>
 </svelte:head>
 
-<Test />
 <p class="text-red-800">О компании</p>
