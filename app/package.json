@@ -7,10 +7,11 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"lint": "prettier --check .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"start": "PORT=9999 node build/index.js"
+
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.1.1",
 		"@sveltejs/kit": "^2.5.4",
 		"@sveltejs/vite-plugin-svelte": "^3.0.2",
 		"autoprefixer": "^10.4.18",
@@ -20,6 +21,18 @@
 		"svelte": "^4.2.12",
 		"tailwindcss": "^3.4.1",
 		"vite": "^5.1.6"
+	},
+	"dependencies": {
+		"@sveltejs/adapter-node": "^5.0.1",
+		"@tailwindcss/aspect-ratio": "^0.4.2",
+		"@tailwindcss/forms": "^0.5.7",
+		"@tailwindcss/typography": "^0.5.10",
+		"axios": "^1.6.8",
+		"graphql": "^16.8.1",
+		"graphql-request": "^5.2.0",
+		"gsap": "^3.11.3",
+		"lodash": "^4.17.21",
+		"swiper": "^11.0.7"
 	},
 	"type": "module"
 }
